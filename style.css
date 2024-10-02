@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#up{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    padding: 20px 120px;
+    color: white;
+}
+#up ul{
+    display: flex;
+}
+#up ul li{
+    list-style-type: none;
+    margin: 0px 15px;
+}
+#navigator{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 130px;
+    border-bottom: 1px solid whitesmoke;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+#navigator li{
+    list-style-type: none;    
+}
+.logo{
+    display: flex;
+}
+#downup i{
+    font-size: 60px;
+}
+#downup{
+    display: flex;
+    align-items: center;
+}
+#downup span b{
+    font-size: 40px;
+}
+#downup span{
+    font-size: 25px;
+    margin:20px 10px;
+}
+.logo li{
+    margin: 30px 15px;
+}
+#background-image{
+    background: url("new\ doctor\ 3.jpg");
+    height: 1000px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: right;
+}
+#last{
+    padding: 0px 700px 50px 100px;
+}
+#last h1{
+    font-size: 60px;
+    padding-top: 350px;
+}
+#last p{
+    font-size: 25px;
+    padding-top: 25px;
+    text-align: justify;
+}
+#but1{
+    margin-top: 50px;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    /* border-radius: 10px; */
+    outline: 1px solid transparent;
+}
+#but2{
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-color: blue;
+}
+#dropdown{
+    display: none;
+}
+@media(max-width:1440px){
+    #caption>h1{
+        color: white;
+        font-size: 72px;
+    }
+}
+@media(max-width:1341px){
+    #last h1{
+        font-size: 55px;
+        padding-top: 350px;
+}
+}
+@media(max-width:1296px){
+    #last h1{
+        font-size: 50px;
+        padding-top: 350px
+}
+}
+@media(max-width:1296px){
+    #last h1{
+        font-size: 45px;
+        padding-top: 350px
+}
+}
+@media(max-width:1205px){
+    #last h1{
+        font-size: 40px;
+        padding-top:300px;
+}
+}
+@media(max-width:1182px){
+    #last p{
+        font-size: 20px;
+        padding-top:40px;
+}
+}
+@media(max-width:1168px){
+    #last{
+        padding: 0px 600px 50px 100px;
+    }
+}
+/* @media(max-width:1139){
+    #downup span{
+        font-size: 10px;
+        margin:30px 50px;
+    }
+} */
+@media(max-width:1137px){
+    .logo{
+        display: none   ;
+    }
+    #dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    #dropdown-content{
+        position: absolute;
+        display: none;
+    }
+    #dropdown:hover #dropdown-content{
+        display: block;
+    }
+    #dropdown span{
+        font-size: 30px;
+    }
+}
+@media(max-width:1151px){
+    #last h1{
+        font-size: 40px;
+        padding-top: 350px
+}
+}
+@media(max-width:1128px){
+    #last p{
+        font-size: 15px;
+        padding-top:40px;
+}
+}
+@media(max-width:1168px){
+    #last{
+        padding: 0px 550px 50px 100px;
+    }
+}
+@media(max-width:1016px){
+    #last{
+        padding: 0px 450px 50px 150px;
+    }
+}
+@media(max-width:968px){
+    #last{
+        padding: 0px 400px 50px 150px;
+    }
+}
+@media(max-width:918px){
+    #last{
+        padding: 0px 350px 50px 150px;
+    }
+}
+@media(max-width:868px){
+    #last{
+        padding: 0px 300px 50px 150px;
+    }
+}
+@media(max-width: 747px){
+    #up{
+        display: none;
+        justify-content: space-between;
+        background-color:black;
+        padding: 20px 120px;
+        color: white;
+    }
+}
+
+@media(max-width:662px){
+    #navigator{
+        padding: 20px 25px;
+    }
+}
